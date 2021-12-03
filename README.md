@@ -24,7 +24,7 @@ $ php artisan serv
 
 ## Developer :mag_right:
 - [Fikri Rahmadhan](https://github.com/FikriEbods)
-- [Farhan Fauzaan](https://github.com/faruzaan)
+- [Muhammad Farhan Fauzaan](https://github.com/faruzaan)
 - [Septian Pradipta](https://github.com/TitamSeptian)
 
 ## License

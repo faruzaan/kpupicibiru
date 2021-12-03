@@ -19,7 +19,15 @@ $ composer update
 $ php artisan migrate
 
 # start project
-$ php artisan serv
+$ php artisan serve
+
+## Cara commit
+$ git add .
+$ git commit -m "text"
+$ git push -u origin master
+
+## Cara Pull
+$ git pull origin master
 ``` -->
 
 ## Developer :mag_right:

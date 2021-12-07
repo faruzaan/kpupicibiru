@@ -7,13 +7,14 @@
 
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.min.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <title>Hello, world!</title>
 </head>
 
 <body>
     <div class="background">
-        <div class="bulet1 wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="bulet1" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine">
             <svg width="1600" height="1600" viewBox="0 0 2107 2107" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_61_3)">
                     <circle cx="1053.5" cy="1053.5" r="798.5" fill="white" />
@@ -36,7 +37,7 @@
                 </defs>
             </svg>
         </div>
-        <div class="bulet2 wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="bulet2" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine">
             <svg width="1358" height="1358" viewBox="0 0 1358 1358" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_61_5)">
                     <circle cx="679" cy="679" r="424" fill="white" />
@@ -60,7 +61,7 @@
             </svg>
 
         </div>
-        <div class="bulet3 wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="bulet3" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine">
             <svg width="1358" height="1358" viewBox="0 0 1358 1358" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_61_5)">
                     <circle cx="679" cy="679" r="424" fill="white" />
@@ -91,24 +92,32 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="d-flex flex-column justify-content-center vh-100">
-                        <div class="img-3">
+                        <div class="img-3 " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
                             <img class="img-fluid" src="{{ asset('img/upi-logo.png') }}" alt="Logo UPI">
                             <img class="img-fluid" src="{{ asset('img/bem-logo.png') }}" alt="Logo BEM">
                             <img class="img-fluid" src="{{ asset('img/kpu-logo.png') }}" alt="Logo KPU">
                         </div>
-                        <h1 class="text-color-1 font-weight-bold">SIPDA</h1>
-                        <h1 class="text-color-1">UPI CIBIRU</h1>
-                        <p class="text-color-1 hero-desc font-weight-normal">Lörem ipsum öbiliga prehöras, anak
+                        <h1 class="text-color-1 font-weight-bold " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">SIPDA
+                        </h1>
+                        <h1 class="text-color-1 " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">UPI CIBIRU
+                        </h1>
+                        <p class="text-color-1 hero-desc font-weight-normal " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">Lörem ipsum öbiliga prehöras, anak
                             kanskeman pojel pseudos
                             peligen för
                             att kosogt. Mivulig
                             nist om än maskap trebiras, mikrohet fonoosmos.</p>
-                        <button class="btn btn-color-1 w-50 p-3 my-rounded">Gunakan Hak Pilih Sekarang !</button>
+                        <button class="btn btn-color-1 w-50 p-3 my-rounded " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">Gunakan Hak Pilih Sekarang !</button>
                     </div>
                 </div>
                 {{-- <div class="col-md-2"></div> --}}
                 <div class=" col-md-5 offset-1">
-                    <div class="d-flex flex-column justify-content-center vh-100">
+                    <div class="d-flex flex-column justify-content-center vh-100 " data-aos="fade-up"
+                        data-aos-duration="500" data-aos-easing="ease-in-sine">
                         <div class="embed-responsive embed-responsive-16by9 hero-video">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                                 allowfullscreen></iframe>
@@ -117,7 +126,8 @@
                 </div>
             </div>
             {{-- squer --}}
-            <div class="info bg-white text-dark mx-auto shadow-lg my-rounded w-75">
+            <div class="info bg-white text-dark mx-auto shadow-lg my-rounded w-75 " data-aos="fade-up"
+                data-aos-duration="500" data-aos-easing="ease-in-sine">
                 <div class="row">
                     <div class="col-md-4 py-3">
                         <div class="text-center">
@@ -141,14 +151,16 @@
             </div>
             <br>
             <br>
-            <p class="text-center mt-5">PASLON</p>
+            <p class="text-center mt-5 " data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                PASLON</p>
             <br>
             <br>
             <br>
             <div class="paslon">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="paslon-card shadow-lg">
+                        <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
                             <div class="paslon-card-title">PASLON 1</div>
                             <div class="paslon-card-body">
                                 <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
@@ -160,7 +172,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="paslon-card shadow-lg">
+                        <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
                             <div class="paslon-card-title">PASLON 1</div>
                             <div class="paslon-card-body">
                                 <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
@@ -172,7 +185,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="paslon-card shadow-lg">
+                        <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
                             <div class="paslon-card-title">PASLON 1</div>
                             <div class="paslon-card-body">
                                 <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
@@ -186,9 +200,10 @@
                 </div>
 
             </div>
-            <footer class="footer py-5 mt-5">
-                <h1>For any inquiries please hit us up through</h1>
-                <div class="social">
+            <footer class="footer py-5 mt-5" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                <h1 class="">For any inquiries please hit us
+                    up through</h1>
+                <div class="social ">
                     <svg width="29" height="29" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M51.8636 8.86406C46.1585 3.14531 38.5607 0 30.4864 0C13.8203 0 0.258705 13.5616 0.258705 30.2277C0.258705 35.5516 1.64754 40.7529 4.28906 45.3415L0 61L16.0261 56.7926C20.4377 59.2027 25.4076 60.469 30.4728 60.469H30.4864C47.1388 60.469 61 46.9074 61 30.2413C61 22.167 57.5687 14.5828 51.8636 8.86406ZM30.4864 55.3766C25.9658 55.3766 21.5406 54.1647 17.6873 51.8772L16.775 51.3326L7.27098 53.8243L9.80357 44.5518L9.20446 43.5987C6.68549 39.5955 5.36473 34.9797 5.36473 30.2277C5.36473 16.3801 16.6388 5.10603 30.5 5.10603C37.2127 5.10603 43.517 7.72031 48.2554 12.4723C52.9938 17.2243 55.9076 23.5286 55.894 30.2413C55.894 44.1025 44.3339 55.3766 30.4864 55.3766ZM44.2659 36.5592C43.517 36.1779 39.7998 34.3533 39.1054 34.1083C38.4109 33.8496 37.9071 33.727 37.4034 34.4895C36.8996 35.252 35.4563 36.9404 35.0069 37.4578C34.5712 37.9616 34.1219 38.0297 33.373 37.6484C28.9342 35.429 26.0203 33.6862 23.0929 28.6618C22.3167 27.3275 23.869 27.4228 25.3123 24.5362C25.5574 24.0324 25.4348 23.5967 25.2442 23.2154C25.0536 22.8342 23.5422 19.117 22.9158 17.6056C22.3031 16.135 21.6768 16.3393 21.2138 16.3121C20.7781 16.2848 20.2743 16.2848 19.7705 16.2848C19.2667 16.2848 18.4498 16.4754 17.7554 17.2243C17.0609 17.9868 15.1138 19.8114 15.1138 23.5286C15.1138 27.2458 17.8234 30.8404 18.1911 31.3442C18.5723 31.848 23.515 39.473 31.0991 42.7545C35.892 44.8241 37.771 45.0011 40.1674 44.6471C41.6243 44.4292 44.6335 42.8225 45.2598 41.0525C45.8862 39.2824 45.8862 37.771 45.6955 37.4578C45.5185 37.1174 45.0147 36.9268 44.2659 36.5592Z"
@@ -201,7 +216,8 @@
                             fill="black" />
                     </svg>
                 </div>
-                <h5 class="text-right">Created by © KPU UPI CIBIRU. All rights reserved</h5>
+                <h5 class="text-right ">Created by © KPU UPI
+                    CIBIRU. All rights reserved</h5>
             </footer>
         </div>
 
@@ -210,6 +226,7 @@
     <script src="{{ asset('assets/vendor/jquery/jquery-3.5.1.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/wow/wow.min.js') }}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
 

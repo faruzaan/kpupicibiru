@@ -117,7 +117,7 @@
                 </div>
             </div>
             {{-- squer --}}
-            <div class="bg-white text-dark mx-auto shadow-lg my-rounded w-75">
+            <div class="info bg-white text-dark mx-auto shadow-lg my-rounded w-75">
                 <div class="row">
                     <div class="col-md-4 py-3">
                         <div class="text-center">

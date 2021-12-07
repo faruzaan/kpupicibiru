@@ -1,0 +1,196 @@
+@import url(./variable.css);
+
+* {
+    font-family: var(--font-mont);
+}
+
+.content {
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    /* text-shadow: -1px -1px 1px #000, 1px 1px 1px #000; */
+    position: relative;
+    z-index: 100;
+}
+
+.text-color-1 {
+    color: var(--color-1) !important;
+}
+
+.my-container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.background {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    height: auto;
+}
+
+.bulet1 {
+    margin-left: -565px;
+    margin-top: -401px;
+}
+
+.bulet2 {
+    top: -700px;
+    position: absolute;
+    margin-left: 565px;
+    /* margin-top: -01px; */
+    right: -750px;
+}
+
+.bulet3 {
+    top: 500px;
+    position: absolute;
+    margin-left: 565px;
+    /* margin-top: -01px; */
+    right: -750px;
+}
+
+.hero-desc {
+    font-family: var(--font-open);
+    font-size: 18px;
+}
+
+.hero-video {
+    border-radius: 20px;
+}
+
+.my-rounded {
+    border-radius: 16px;
+}
+
+.btn-color-1 {
+    color: #fff;
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+}
+
+.btn-color-1:hover {
+    color: #fff;
+    background-color: #6e0202;
+    border-color: #6e0202;
+}
+
+.btn-color-1:focus,
+.btn-color-1.focus {
+    color: #fff;
+    background-color: #6e0202;
+    border-color: #6e0202;
+    /* box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); */
+}
+
+.paslon {
+    margin-bottom: 180px;
+}
+
+.paslon-card {
+    margin-top: 4%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 25px;
+}
+
+.paslon-card-title {
+    border-radius: 25px 25px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color-1);
+    color: #fff;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.paslon-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.paslon-name {
+    text-align: center;
+}
+
+.footer {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .info {
+        color: red;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .img-3 img {
+        width: auto !important;
+        max-width: 100%;
+        height: auto;
+    }
+}

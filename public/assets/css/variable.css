@@ -1,0 +1,25 @@
+@font-face {
+    font-family: montserat-regular;
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url("../fonts/opensans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+:root {
+    --color-1: #7f0000;
+    --color-2: #fbdd00;
+    --color-3: #d3ab9e;
+    --color-4: #eac9c1;
+    --color-5: #fffbff;
+    --font-mont: montserat-reguler, sans-serif;
+    --font-open: open-sans, sans-serif;
+    --font-pop: poppins, sans-serif;
+}

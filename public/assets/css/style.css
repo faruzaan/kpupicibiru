@@ -135,6 +135,36 @@
     padding-bottom: auto;
 }
 
+.control-form1 {
+    color: var(--color-1);
+    font-weight: 700;
+    font-family: var(--font-mont);
+    margin-top: 4%;
+}
+
+.form-1 {
+    padding: 13px 20px;
+    padding-left: 10px;
+    height: 48px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: var(--color-1);
+    background-color: #ffffff;
+    border: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    /* box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2); */
+}
+
+.right {
+    background-color: #fffbff;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops

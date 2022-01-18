@@ -11,10 +11,15 @@
     <div class="paslon-name">
         <p>Alif & Iman</p>
     </div>
+    <form action="{{ route('vote', [/* Auth::user->id*/ 2, 1]) }}" method="POST">
+        @csrf
+        @method('put')
+        <button>Pilih</button>
+    </form>
 </div>
 <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
     data-aos-easing="ease-in-sine">
-    <div class="paslon-card-title">PASLON 1</div>
+    <div class="paslon-card-title">PASLON 2</div>
     <div class="paslon-card-body">
         <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
             class="img-fluid">
@@ -22,17 +27,11 @@
     <div class="paslon-name">
         <p>Alif & Iman</p>
     </div>
-</div>
-<div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
-    data-aos-easing="ease-in-sine">
-    <div class="paslon-card-title">PASLON 1</div>
-    <div class="paslon-card-body">
-        <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
-            class="img-fluid">
-    </div>
-    <div class="paslon-name">
-        <p>Alif & Iman</p>
-    </div>
+    <form action="{{ route('vote', [/* Auth::user->id*/ 3, 2]) }}" method="POST">
+        @csrf
+        @method('put')
+        <button>Pilih</button>
+    </form>
 </div>
 @endsection
 @section("info-content")

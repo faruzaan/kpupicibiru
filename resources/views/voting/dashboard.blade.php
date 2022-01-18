@@ -29,19 +29,19 @@
 <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
     <div class="text-center">
         <h5>Suara Masuk Hari ini</h5>
-        <p>99</p>
+        <p>{{ $SuaraSekarang }}</p>
     </div>
 </div>
 <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
     <div class="text-center">
         <h5>Mahasiswa Aktif</h5>
-        <p>99</p>
+        <p>{{ $JumlahMahasiswa }}</p>
     </div>
 </div>
 <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
     <div class="text-center">
         <h5>Total Suara</h5>
-        <p>99</p>
+        <p>{{ $Total }}</p>
     </div>
 </div>
 @endsection

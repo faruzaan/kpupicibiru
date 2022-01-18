@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.min.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/utilities.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <title>Hello, world!</title>
 </head>
@@ -110,8 +111,8 @@
                             peligen för
                             att kosogt. Mivulig
                             nist om än maskap trebiras, mikrohet fonoosmos.</p>
-                        <button class="btn btn-color-1 w-50 p-3 my-rounded " data-aos="fade-up" data-aos-duration="500"
-                            data-aos-easing="ease-in-sine">Gunakan Hak Pilih Sekarang !</button>
+                        <a href="{{ route('login') }}" class="btn btn-color-1 w-50 p-3 my-rounded " data-aos="fade-up"
+                            data-aos-duration="500" data-aos-easing="ease-in-sine">Gunakan Hak Pilih Sekarang !</a>
                     </div>
                 </div>
                 {{-- <div class="col-md-2"></div> --}}
@@ -119,7 +120,7 @@
                     <div class="d-flex flex-column justify-content-center vh-100 " data-aos="fade-up"
                         data-aos-duration="500" data-aos-easing="ease-in-sine">
                         <div class="embed-responsive embed-responsive-16by9 hero-video">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
                                 allowfullscreen></iframe>
                         </div>
                     </div>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendor/animate/animate.min.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/utilities.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <title>Hello, world!</title>
 </head>
@@ -41,6 +42,8 @@
                             <label for="password">PASSWORD</label>
                             <input type="text" class="form-1 shadow-lg" name="password">
                         </div>
+                        <button type="submit" name="" class="btn btn-color-1 w-25 p-3 my-rounded mt-5"
+                            data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">Login</button>
                     </form>
                 </div>
             </div>

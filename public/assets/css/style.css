@@ -69,7 +69,7 @@
     border-radius: 16px;
 }
 
-.btn-color-1 {
+/* .btn-color-1 {
     color: #fff;
     background-color: var(--color-1);
     border-color: var(--color-1);
@@ -86,14 +86,13 @@
     color: #fff;
     background-color: #6e0202;
     border-color: #6e0202;
-    /* box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); */
-}
+} */
 
 .paslon {
     margin-bottom: 180px;
 }
 
-.paslon-card {
+/* .paslon-card {
     margin-top: 4%;
     position: relative;
     display: -ms-flexbox;
@@ -128,7 +127,7 @@
 
 .paslon-name {
     text-align: center;
-}
+} */
 
 .footer {
     padding-top: auto;
@@ -137,7 +136,7 @@
 
 /* Login */
 
-.control-form1 {
+/* .control-form1 {
     color: var(--color-1);
     font-weight: 700;
     font-family: var(--font-mont);
@@ -160,8 +159,7 @@
     border: none;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
-    /* box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2); */
-}
+} */
 
 .right {
     background-color: #fffbff;

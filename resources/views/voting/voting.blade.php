@@ -11,11 +11,15 @@
                 <div class="paslon-name">
                     <p>M Figo Alfaiq & Dian Saepul A</p>
                 </div>
-                <a href="javascript:void(0)" class="btn-vote">
-                    <div class="paslon-vote text-center py-2">
-                        Pilih
-                    </div>
-                </a>
+                <form action="{{ route('vote', [/* Auth::user->id*/ 3, 2]) }}">
+                    <button class="btn btn-vote" type="submit">
+                        @csrf
+                        @method('put')
+                        <div class="paslon-vote text-center py-2">
+                            Pilih
+                        </div>
+                    </button>
+                </form>
             </div>
         </div>
         <div class="col-md-6 paslon-wrap" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine"
@@ -28,11 +32,15 @@
                 <div class="paslon-name">
                     <p>- & -</p>
                 </div>
-                <a href="javascript:void(0)" class="btn-vote">
-                    <div class="paslon-vote text-center py-2">
-                        Pilih
-                    </div>
-                </a>
+                <form action="{{ route('vote', [/* Auth::user->id*/ 2, 1]) }}">
+                    <button class="btn btn-vote" type="submit">
+                        @csrf
+                        @method('put')
+                        <div class="paslon-vote text-center py-2">
+                            Pilih
+                        </div>
+                    </button>
+                </form>
             </div>
         </div>
     </div>

@@ -22,26 +22,26 @@
     @endsection
     @section('info-content')
         <h4>TATA CARA</h4>
-        <div class="embed-responsive embed-responsive-16by9 hero-video ">
-            <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
+        <div class="embed-responsive embed-responsive-16by9 hero-video">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                 allowfullscreen></iframe>
         </div>
-        <div class="info-suara bg-white shadow mt-2 my-rounded py-3 mx-3 ">
+        <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
             <div class="text-center">
                 <h5>Suara Masuk Hari ini</h5>
-                <p>99</p>
+                <p>{{ $SuaraSekarang }}</p>
             </div>
         </div>
-        <div class="info-suara bg-white shadow mt-2 my-rounded py-3 mx-3">
+        <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
             <div class="text-center">
                 <h5>Mahasiswa Aktif</h5>
-                <p>99</p>
+                <p>{{ $JumlahMahasiswa }}</p>
             </div>
         </div>
-        <div class="info-suara bg-white shadow mt-2 my-rounded py-3 mx-3">
+        <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
             <div class="text-center">
                 <h5>Total Suara</h5>
-                <p>99</p>
+                <p>{{ $Total }}</p>
             </div>
         </div>
     @endsection

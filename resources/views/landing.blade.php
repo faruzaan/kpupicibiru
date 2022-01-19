@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/utilities.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <title>Hello, world!</title>
+    <title>SIPDA UPI CIBIRU</title>
 </head>
 
 <body>
@@ -158,7 +158,7 @@
             <br>
             <br>
             <div class="paslon">
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                     <div class="col-md-4">
                         <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">
@@ -168,33 +168,7 @@
                                     class="img-fluid">
                             </div>
                             <div class="paslon-name">
-                                <p>Alif & Iman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
-                            data-aos-easing="ease-in-sine">
-                            <div class="paslon-card-title">PASLON 1</div>
-                            <div class="paslon-card-body">
-                                <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
-                                    class="img-fluid">
-                            </div>
-                            <div class="paslon-name">
-                                <p>Alif & Iman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="paslon-card shadow-lg " data-aos="fade-up" data-aos-duration="500"
-                            data-aos-easing="ease-in-sine">
-                            <div class="paslon-card-title">PASLON 1</div>
-                            <div class="paslon-card-body">
-                                <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon"
-                                    class="img-fluid">
-                            </div>
-                            <div class="paslon-name">
-                                <p>Alif & Iman</p>
+                                <p>M Figo Alfaiq & Dian Saepul A</p>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/utilities.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <title>Hello, world!</title>
+    <title>SIPDA UPI CIBIRU</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                     <form action="#" class="form-login">
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">
-                            <label for="username">USERNAME</label>
+                            <label for="username">NIM</label>
                             <input type="text" class="form-1 shadow-lg" name="username">
                         </div>
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"

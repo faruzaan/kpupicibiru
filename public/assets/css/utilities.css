@@ -33,6 +33,10 @@
     border-radius: 25px;
 }
 
+.paslon-card.vote {
+    border-radius: 20px 20px 20px 20px;
+}
+
 .paslon-card-title {
     border-radius: 25px 25px 0 0;
     padding-top: 10px;
@@ -53,6 +57,21 @@
 
 .paslon-name {
     text-align: center;
+}
+
+.paslon-vote {
+    /* position: relative; */
+    background-color: var(--color-2);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.btn-vote {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .control-form1 {

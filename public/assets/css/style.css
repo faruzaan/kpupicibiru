@@ -69,6 +69,10 @@
     border-radius: 16px;
 }
 
+.my-rounded-2 {
+    border-radius: 10px;
+}
+
 /* .btn-color-1 {
     color: #fff;
     background-color: var(--color-1);

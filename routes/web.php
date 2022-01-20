@@ -22,7 +22,7 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-// Route::middleware('auth')->group(function () { buka kalau udah ada sistem loginnya
+// Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [UserController::class, 'index'])->name('dashboard');
     Route::get('/voting', [UserController::class, 'voting'])->name('voting');
 

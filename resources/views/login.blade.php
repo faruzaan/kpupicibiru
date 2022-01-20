@@ -35,7 +35,7 @@
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">
                             <label for="username">NIM</label>
-                            <input type="text" class="form-1 shadow-lg" name="username">
+                            <input type="text" class="form-1 shadow-lg" name="nim">
                         </div>
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">

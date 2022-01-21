@@ -106,11 +106,8 @@
                             data-aos-easing="ease-in-sine">UPI CIBIRU
                         </h1>
                         <p class="text-color-1 hero-desc font-weight-normal " data-aos="fade-up" data-aos-duration="500"
-                            data-aos-easing="ease-in-sine">Lörem ipsum öbiliga prehöras, anak
-                            kanskeman pojel pseudos
-                            peligen för
-                            att kosogt. Mivulig
-                            nist om än maskap trebiras, mikrohet fonoosmos.</p>
+                            data-aos-easing="ease-in-sine">SIPDA
+                            UPI Cibiru adalah layanan pemilihan berbasis online </p>
                         <a href="{{ route('login') }}" class="btn btn-color-1 w-50 p-3 my-rounded " data-aos="fade-up"
                             data-aos-duration="500" data-aos-easing="ease-in-sine">Gunakan Hak Pilih Sekarang !</a>
                     </div>

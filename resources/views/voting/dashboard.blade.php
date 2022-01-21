@@ -1,6 +1,11 @@
 @extends("voting.master", [$title = "- Beranda", $active = 'dashboard'])
 @section('main-content')
     <h4>SIPDA UPI CIBIRU</h3>
+        @if (Auth::user()->pilihan != 0)
+        <div class="alert alert-success" role="alert">
+            Terima Kasih Telah Memilih
+        </div>
+        @endif
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque optio dolores, a nostrum
             perferendis
             asperiores voluptates, dolorem suscipit labore exercitationem repellat maxime numquam illum fuga
@@ -19,6 +24,7 @@
             qui
             consequuntur! Molestias, suscipit!
         </p>
+
     @endsection
     @section('info-content')
         <h4>TATA CARA</h4>

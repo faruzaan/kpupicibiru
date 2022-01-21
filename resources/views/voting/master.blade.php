@@ -71,6 +71,7 @@
                                 </div>
                             </a>
                         </li>
+                        @if (Auth::user()->pilihan == 0)
                         <li class="{{ $active == 'voting' ? 'menu-active' : '' }}">
                             <a href="{{ route('voting') }}">
                                 <div class="item px-5 py-3">
@@ -84,6 +85,7 @@
                                 </div>
                             </a>
                         </li>
+                        @endif
                     </ul>
                 </div>
             </div>

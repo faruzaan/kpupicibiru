@@ -11,7 +11,7 @@
                 <div class="paslon-name">
                     <p>M Figo Alfaiq & Dian Saepul A</p>
                 </div>
-                <form action="{{ route('vote', [/* Auth::user->id*/ 1, 1]) }}" method="POST">
+                <form action="{{ route('vote', [Auth::user()->id , 1]) }}" method="POST">
                     <button class="btn btn-vote" type="submit">
                         @csrf
                         @method('put')
@@ -32,7 +32,7 @@
                 <div class="paslon-name">
                     <p>- & -</p>
                 </div>
-                <form action="{{ route('vote', [/* Auth::user->id*/ 1, 2]) }}" method="POST">
+                <form action="{{ route('vote', [Auth::user()->id, 2]) }}" method="POST">
                     <button class="btn btn-vote" type="submit">
                         @csrf
                         @method('put')

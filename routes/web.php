@@ -29,6 +29,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/voting', [UserController::class, 'voting'])->name('voting');
 
     Route::put('/{user:id}/{pilihan}/vote', [UserController::class, 'vote'])->name('vote');
-    Route::post('/logout',[LoginController::class, 'logout'])->name('logout');
+    Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
 });
 

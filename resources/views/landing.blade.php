@@ -107,7 +107,7 @@
                         </h1>
                         <p class="text-color-1 hero-desc font-weight-normal " data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">SIPDA
-                            UPI Cibiru adalah layanan pemilihan berbasis online </p>
+                            Sistem Pemilihan Umum Daring </p>
                         <a href="{{ route('login') }}" class="btn btn-color-1 w-50 p-3 my-rounded " data-aos="fade-up"
                             data-aos-duration="500" data-aos-easing="ease-in-sine">Gunakan Hak Pilih Sekarang !</a>
                     </div>
@@ -130,19 +130,19 @@
                     <div class="col-md-4 py-3">
                         <div class="text-center">
                             <p>Suara Masuk Hari ini</p>
-                            <h5>99</h5>
+                            <h5>{{ $SuaraSekarang }}</h5>
                         </div>
                     </div>
                     <div class="col-md-4 py-3">
                         <div class="text-center">
                             <p>Mahasiswa Aktif</p>
-                            <h5>99</h5>
+                            <h5>{{ $JumlahMahasiswa }}</h5>
                         </div>
                     </div>
                     <div class="col-md-4 py-3">
                         <div class="text-center">
                             <p>Total Suara Masuk</p>
-                            <h5>99</h5>
+                            <h5>{{ $Total }}</h5>
                         </div>
                     </div>
                 </div>

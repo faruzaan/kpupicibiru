@@ -13,7 +13,7 @@ class UserController extends Controller
     }
     public function index()
     {
-        $SuaraSekarang      = User::where('pilihan', '!=', '0')->whereDate('created_at', "$this->date")->count();
+        $SuaraSekarang      = User::where('pilihan', '!=', '0')->whereDate('updated_at', "$this->date")->count();
         $JumlahMahasiswa    = User::count();
         $Total              = User::where('pilihan', '!=', '0')->count();
 
@@ -23,7 +23,18 @@ class UserController extends Controller
             'Total'             => $Total,
         ]);
     }
+    public function landing()
+    {
+        $SuaraSekarang      = User::where('pilihan', '!=', '0')->whereDate('updated_at', "$this->date")->count();
+        $JumlahMahasiswa    = User::count();
+        $Total              = User::where('pilihan', '!=', '0')->count();
 
+        return view('landing', [
+            'SuaraSekarang'     => $SuaraSekarang,
+            'JumlahMahasiswa'   => $JumlahMahasiswa,
+            'Total'             => $Total,
+        ]);
+    }
     public function voting()
     {
         return view('voting.voting');

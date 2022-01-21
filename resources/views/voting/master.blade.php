@@ -50,8 +50,8 @@
                 </path>
             </svg>
             <div class="biodata d-flex flex-column justify-content-center ml-3">
-                <h1>Mang Ujang</h1>
-                <p>2000098 - <span class="text-uppercase">Rekayasa Perangkat Lunak</span></p>
+                <h1>{{Auth::user()->nama}}</h1>
+                <p>{{Auth::user()->nim}} - <span class="text-uppercase">{{Auth::user()->jurusan}}</span></p>
             </div>
         </div>
         <div class="row">

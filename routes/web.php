@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\{UserController};
+use App\Http\Controllers\{LoginController};
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,18 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
-});
+Route::get('/', [UserController::class, 'landing'])->name('landing');
 
 Route::get('/login', function () {
     return view('login');
-})->name('login');
+})->middleware('guest')->name('login');
 
-// Route::middleware('auth')->group(function () {
+Route::post('/postLogin',[LoginController::class,'postLogin'])->name('postLogin');
+
+
+Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [UserController::class, 'index'])->name('dashboard');
     Route::get('/voting', [UserController::class, 'voting'])->name('voting');
 
     Route::put('/{user:id}/{pilihan}/vote', [UserController::class, 'vote'])->name('vote');
-// });
+    Route::post('/logout',[LoginController::class, 'logout'])->name('logout');
+});
 

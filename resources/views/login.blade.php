@@ -31,19 +31,19 @@
                         UPI
                         CIBIRU
                     </h1>
-                    <form action="{{route('login')}}" class="form-login" method="POST">
+                    <form action="{{route('postLogin')}}" class="form-login" method="POST">
+                        {{ csrf_field() }}
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">
                             <label for="username">NIM</label>
-                            <input type="text" class="form-1 shadow-lg" name="username">
+                            <input type="text" class="form-1 shadow-lg" name="nim">
                         </div>
                         <div class="control-form1" data-aos="fade-up" data-aos-duration="500"
                             data-aos-easing="ease-in-sine">
                             <label for="password">PASSWORD</label>
                             <input class="form-1 shadow-lg" name="password" type="password">
                         </div>
-                        <button type="submit" name="" class="btn btn-color-1 w-25 p-3 my-rounded mt-5"
-                            data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">Login</button>
+                        <button type="submit" name="" class="btn btn-color-1 w-25 p-3 my-rounded mt-5">Login</button>
                     </form>
                 </div>
             </div>

@@ -22,10 +22,12 @@ class User extends Authenticatable
         'nama',
         'email',
         'password',
+        'passwordkirim',
         'kelas',
         'jurusan',
         'angkatan',
         'pilihan',
+        'sendemail',
     ];
 
     /**

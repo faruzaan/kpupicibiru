@@ -21,7 +21,7 @@ Route::get('/login', function () {
     return view('login');
 })->middleware('guest')->name('login');
 
-Route::post('/postLogin',[LoginController::class,'postLogin'])->name('postLogin');
+Route::post('/postLogin', [LoginController::class, 'postLogin'])->name('postLogin');
 
 
 Route::middleware('auth')->group(function () {
@@ -29,6 +29,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/voting', [UserController::class, 'voting'])->name('voting');
 
     Route::put('/{user:id}/{pilihan}/vote', [UserController::class, 'vote'])->name('vote');
-    Route::get('/logout',[LoginController::class, 'logout'])->name('logout');
-});
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
+    Route::get('/voting-example', function () {
+        return view('voting.voting-example');
+    });
+});

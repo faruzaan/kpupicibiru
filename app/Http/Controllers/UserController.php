@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function __construct ()
+    public function __construct()
     {
         $this->date = date('Y-m-d');
     }
@@ -37,7 +37,7 @@ class UserController extends Controller
     }
     public function voting()
     {
-        return view('voting.voting');
+        return view('voting.voting2');
     }
 
     public function vote(User $user, Request $request)

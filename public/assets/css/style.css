@@ -245,3 +245,10 @@
         height: auto;
     }
 }
+
+.new-wrap {
+    display: flex;
+}
+
+.new-wrap-item {
+}

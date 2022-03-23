@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="my-container">
+    <div class="my-container" style="margin-bottom: 300px">
         <div class="">
             <div class="brand-logo py-3 px-3">
 
@@ -89,7 +89,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col">
                 <div class="content">
                     @yield("main-content")
                 </div>

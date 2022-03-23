@@ -227,10 +227,28 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .sidebar {
         overflow: hidden;
-        background-color: red;
+        background-color: white;
         position: fixed;
         bottom: 0;
         width: 100%;
         z-index: 9999999;
+    }
+
+    .sidebar div ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-items: center;
+    }
+
+    .sidebar div ul a div span {
+        display: none;
+    }
+    .sidebar div ul a div.item svg {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .menu-active {
+        box-shadow: 0;
     }
 }

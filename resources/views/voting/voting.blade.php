@@ -1,4 +1,15 @@
 @extends("voting.master", [$title = "- Pemilihan", $active = 'voting'])
+@push('js')
+    <script>
+        $("body").on("click", ".btn-vote", function(e) {
+            if (confirm("Apakah anda yakin akan melakukan pemilihan ini?")) {
+                $(this).parent().submit();
+            } else {
+                alert("Tidak jadi memilih")
+            }
+        })
+    </script>
+@endpush
 @section('main-content')
     <div class="row">
         <div class="col-md-6 paslon-wrap" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine"
@@ -9,10 +20,10 @@
                     <img src="{{ asset('img/paslon/paslon1.png') }}" alt="foto paslon" class="img-fluid">
                 </div>
                 <div class="paslon-name">
-                    <p>M Figo Alfaiq & Dian Saepul A</p>
+                    <p>Gumilang Pawitan & Rafif Dzakwan R</p>
                 </div>
-                <form action="{{ route('vote', [Auth::user()->id , 1]) }}" method="POST">
-                    <button class="btn btn-vote" type="submit">
+                <form action="{{ route('vote', [Auth::user()->id, 1]) }}" method="POST">
+                    <button class="btn btn-vote" type="button">
                         @csrf
                         @method('put')
                         <div class="paslon-vote text-center py-2">
@@ -33,7 +44,7 @@
                     <p>- & -</p>
                 </div>
                 <form action="{{ route('vote', [Auth::user()->id, 2]) }}" method="POST">
-                    <button class="btn btn-vote" type="submit">
+                    <button class="btn btn-vote" type="button">
                         @csrf
                         @method('put')
                         <div class="paslon-vote text-center py-2">
@@ -54,31 +65,25 @@
         <div class="info-suara bg-white shadow mt-2 my-rounded-2 py-3 mx-3">
             <div class="text-center">
                 <h5>Visi</h5>
-                <p>Mewujudkan BEM UPI Kampus Cibiru Juara Lahir Batin dengan Inovasi Teknologi, aktif berkolaborasi, dan
-                    berkarakter Masagi.</p>
+                <p>Menjadi BEM UPI Cibiru yang mengedepankan nilai kebersamaan dan keberagaman dalam persatuan.</p>
             </div>
         </div>
         <div class="info-suara bg-white shadow mt-2 my-rounded-2 py-3 mx-3">
             <div class="text-center">
                 <h5>MISI</h5>
                 <ol class="ml-3 px-2 text-left">
-                    <li>Membentuk karakter kader mahasiswa yang aktif dan memiliki kepekaan sosial serta tanggap terhadap
-                        isu lingkungan</li>
-                    <li>Meningkatkan produktivitas dan daya saing mahasiswa yang menyeluruh melalui pemanfaatan teknologi
-                        digital dan kolaborasi dengan pusat-pusat inovasi serta kelembagaan.</li>
-                    <li>Mewujudkan tata kelola organisasi dan pelayanan publik yang responsif dan inovatif serta
-                        kepemimpinan yang kolaboratif antara UKM Ormawa, Mahasiswa dan Lembaga.</li>
-                    <li>Mengembangkan kepedulian sosial mahasiswa yang kreatif dan inspiratif sebagai bagian dari tri dharma
-                        perguruan tinggi.</li>
-                    <li>Memfasilitasi dan memotivasi mahasiswa untuk menghasilkan prestasi yang cemerlang di era disrupsi.
-                    </li>
+                    <li>Menjalin relasi dan kolaborasi yang bersahaja, baik di internal maupun eksternal demi terciptanya
+                        lingkungan yang harmonis.</li>
+                    <li>Memupuk potensi mahasiswa demi optimalisasi perkembangan diri.</li>
+                    <li>Membangun pergerakan dan pengabdian yang mengutamakan kemaslahatan masyarakat.</li>
+                    <li>Mengukuhkan integritas dan solidaritas internal organisasi.</li>
                 </ol>
             </div>
         </div>
         <div class="info-suara bg-white shadow mt-2 my-rounded-2 py-3 mx-3">
             <div class="text-center">
                 <h5>Program Unggulan</h5>
-                <ol class="ml-3 px-2 text-left">
+                {{-- <ol class="ml-3 px-2 text-left">
                     <li>Desa Mekar (Membina Karakter)</li>
                     <li>UPI Cibiru Masagi</li>
                     <li>BEM <i>Quick Response</i></li>
@@ -86,7 +91,7 @@
                     <li>Piala BEM CUP</li>
                     <li>BEM Menyapa</li>
                     <li>Bukti Lisan (Buletin Fakta Isu dan Kajian)</li>
-                </ol>
+                </ol> --}}
             </div>
         </div>
     </div>

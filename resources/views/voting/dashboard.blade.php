@@ -6,31 +6,19 @@
             Terima Kasih Telah Memilih
         </div>
         @endif
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque optio dolores, a nostrum
-            perferendis
-            asperiores voluptates, dolorem suscipit labore exercitationem repellat maxime numquam illum fuga
-            qui
-            consequuntur! Molestias, suscipit!
+        <p>Assalamualaikum wr.wb.</p>
+        <p>
+        Pemilihan Umum tahun ini dilaksanakan dengan hanya 1 kandidat tetapi dalam pemilihannya itu saudara-saudari sebagai hak pemilih dapat memilih kotak kosong. Pemilihan umum ini dilaksanakan pada tanggal 23 Maret 2022 sampai 29 Maret 2022, dengan begitu yakinkan diri untuk pilihan anda.
         </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque optio dolores, a nostrum
-            perferendis
-            asperiores voluptates, dolorem suscipit labore exercitationem repellat maxime numquam illum fuga
-            qui
-            consequuntur! Molestias, suscipit!
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque optio dolores, a nostrum
-            perferendis
-            asperiores voluptates, dolorem suscipit labore exercitationem repellat maxime numquam illum fuga
-            qui
-            consequuntur! Molestias, suscipit!
+        <p>
+        Wassalamualaikum wr.wb
         </p>
 
     @endsection
     @section('info-content')
         <h4>TATA CARA</h4>
         <div class="embed-responsive embed-responsive-16by9 hero-video">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                allowfullscreen></iframe>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/aDFCMxl_l_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
             <div class="text-center">
@@ -41,7 +29,7 @@
         <div class="info-suara bg-white shadow mt-2 my-rounded py-3">
             <div class="text-center">
                 <h5>Mahasiswa Aktif</h5>
-                <p>{{ $JumlahMahasiswa }}</p>
+                <p>1.933</p>
             </div>
         </div>
         <div class="info-suara bg-white shadow mt-2 my-rounded py-3">

@@ -52,8 +52,7 @@
                     data-aos-duration="500" data-aos-easing="ease-in-sine">
                     <div class="d-flex flex-row justify-content-center">
                         <div class="embed-responsive embed-responsive-16by9 hero-video">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                                allowfullscreen></iframe>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/aDFCMxl_l_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

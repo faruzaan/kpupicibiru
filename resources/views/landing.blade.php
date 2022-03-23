@@ -117,8 +117,7 @@
                     <div class="d-flex flex-column justify-content-center vh-100 " data-aos="fade-up"
                         data-aos-duration="500" data-aos-easing="ease-in-sine">
                         <div class="embed-responsive embed-responsive-16by9 hero-video">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
-                                allowfullscreen></iframe>
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/aDFCMxl_l_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -136,7 +135,7 @@
                     <div class="col-md-4 py-3">
                         <div class="text-center">
                             <p>Mahasiswa Aktif</p>
-                            <h5>{{ $JumlahMahasiswa }}</h5>
+                            <h5>1.933</h5>
                         </div>
                     </div>
                     <div class="col-md-4 py-3">

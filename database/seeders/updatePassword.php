@@ -14,7 +14,7 @@ class updatePassword extends Seeder
      */
     public function run()
     {
-        $users = User::all();
+        $users = User::where('nim',111111)->get();
         foreach($users as $user){
             User::where('id',$user->id)->update(['password'=>bcrypt($user->passwordkirim)]);
         }
